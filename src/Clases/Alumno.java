@@ -45,8 +45,8 @@ public class Alumno {
 	public void setNotaDeProgramacion(int notaDeProgramacion) {
 		NotaDeProgramacion = notaDeProgramacion;
 	}
-	public double getPromedio() {
-		return (NotaDeMatematica + NotaDeLengua + NotaDeProgramacion) / 3.0;
+	public int getPromedio() {
+		return (int)Math.round((NotaDeMatematica + NotaDeLengua + NotaDeProgramacion) / 3.0);
 	}
 	
 	

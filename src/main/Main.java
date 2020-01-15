@@ -45,7 +45,7 @@ public class Main {
 				"\nNota de lengua del Alumno: " + currentAlumno.getNotaDeLengua() +
 				"\nNota de matematicas del Alumno: " + currentAlumno.getNotaDeMatematica() +
 				"\nNota de programacion del Alumno: " + currentAlumno.getNotaDeProgramacion() +
-				"\nPromedio del Alumno: " + Math.round(currentAlumno.getPromedio()) +
+				"\nPromedio del Alumno: " + currentAlumno.getPromedio() +
 				"\n"
 				);
 		if (currentAlumno.getPromedio() < 6) {
